@@ -1,0 +1,63 @@
+button{
+    background-color: black;
+    color: rgb(211, 209, 209);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+p{
+    color: rgb(179, 177, 177);
+}
+
+main{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.boton {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.imagen {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
