@@ -1,0 +1,57 @@
+body{ 
+    font-family: "Afacad Flux", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1204px;
+    
+  }
+
+  .h1{
+    width: 674px;
+    height: 80px;
+    font-weight:800;
+    font-size: 88px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    display: flex;
+  }
+
+  .main{
+    display: flex;
+    
+   
+  }
+
+
+  .derecha{
+    width: 526px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #252525CC;
+  }
+
+  #boton{
+    width: 157px;
+    height: 50px;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    gap: 10px;
+    background-color: #252525;
+    color: #FFFFFF;
+    letter-spacing: 0%;
+  }
+
+  .img{
+    width:1313px ;
+    height:732px ;
+    margin-top:416px;
+    padding-left:64px;
+  }
+  

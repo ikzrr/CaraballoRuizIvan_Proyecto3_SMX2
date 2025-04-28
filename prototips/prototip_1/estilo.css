@@ -10,14 +10,8 @@ p{
     color: rgb(179, 177, 177);
 }
 
-main{
-   display: flex;
-   justify-content: center;
-   
-   
-}
 
-.hero {
+.h{
     padding: 50px 20px;
 }
 
@@ -27,7 +21,7 @@ h1 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 16px;
     color: #666;
     max-width: 600px;
     margin: 10px auto;
@@ -39,15 +33,14 @@ p {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
+    font-size: 16px;
+    
 }
 
 
 
 .fotos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     padding: 20px;
     max-width: 900px;
@@ -57,7 +50,6 @@ p {
 .imagen {
     width: 100%;
     padding-bottom: 100%;
-    background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
