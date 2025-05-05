@@ -1,57 +1,62 @@
-body{ 
-    font-family: "Afacad Flux", sans-serif;
+* {
+   
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 1204px;
+  }
+
+  body {
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 60px 40px;
+  }
+
+  .divi {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin:  80px auto;
     
   }
 
-  .h1{
-    width: 674px;
-    height: 80px;
-    font-weight:800;
-    font-size: 88px;
-    line-height: 80px;
-    letter-spacing: 0%;
-    display: flex;
-  }
 
-  .main{
-    display: flex;
-    
+  .textoizq h1 {
+    font-size: 94px;
    
   }
 
-
-  .derecha{
-    width: 526px;
-    height: 108px;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #252525CC;
+  .textoder {
+    max-width: 500px;
+    margin-top: 12px;
   }
 
-  #boton{
-    width: 157px;
-    height: 50px;
-    border-radius: 16px;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    gap: 10px;
-    background-color: #252525;
-    color: #FFFFFF;
-    letter-spacing: 0%;
+  .textoder p{
+    font-size: 20px;
+    color: #363636;
+    margin-bottom: 28px;
   }
 
-  .img{
-    width:1313px ;
-    height:732px ;
-    margin-top:416px;
-    padding-left:64px;
+  .boton {
+    background-color: #1f1e1e;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 900px;
+    
   }
-  
+
+  .boton:hover {
+    background-color: #000000;
+  }
+
+  .imagen {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  }
