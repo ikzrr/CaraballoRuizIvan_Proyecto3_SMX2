@@ -4,43 +4,51 @@
   }
 
 
-
-body{
-    font-family: "Afacad Flux", sans-serif;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 60px 40px;
-}
-.texto{
-    padding-left: 200px;
-   
-    
-   
+body {
+  margin: 0;
+  font-family: "Afacad Flux", sans-serif;
+  background-color: #ffffff;
 }
 
-.boton {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    font-size: 16px;
-    
+.n1 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: white;
+  text-align: center;
+}
+
+.titulos h1 {
+  font-size: 40px;
+  font-weight: 700px;
+  margin-bottom: 16px;
+}
+
+.titulos p {
+  color: #474747;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 24px auto;
+}
+
+.titulos button {
+  background: #131313;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
 }
 
 
-
-.fotos {
-    display: grid;
-    gap: 15px;
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.imagen {
-    width: 100%;
-    padding-bottom: 100%;
-    background-position: center;
-    border-radius: 10px;
-}
+.imagenes img {
+  width: 200px;
+  height: 160px;
+  border-radius: 8px;

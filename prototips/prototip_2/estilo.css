@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body{
+ font-family: "Lato", sans-serif;
+  }
+
+
+.n1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: url('../../imatges/imagenes2/fondo.jpg'); 
+  background-size: 60%;
+  background-position: center;
+}
+  
+}
+
+.titulos {
+ 
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.titulos h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.titulos p {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 14px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 24px;
+}
+
