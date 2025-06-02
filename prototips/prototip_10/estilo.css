@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.n1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../imatges/imagenes11/imagenfondo.jpg);
+  background-position: 1vh;
+}
+
+.imagenfondo {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.n2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  height: 100%;
+}
+
+.texto {
+  background: rgba(0, 0, 0, 0.438);
+  border-radius: 30px;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  max-width: 450px;
+}
+
+.texto .textos {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.texto h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.texto button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagenes img {
+  width: 290px;
+  height: 290px;
+  border-radius: 20px;
+}
