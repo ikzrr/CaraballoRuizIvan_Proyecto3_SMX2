@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #eee7e7;
+}
+
+.n1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 32px;
+}
+
+.seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.texto {
+  max-width: 500px;
+}
+
+.texto h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+.texto p {
+  color: #444444;
+  margin-bottom: 34px;
+  font-size: 24px;
+}
+
+.boton{
+  padding: 12px 25px;
+  background-color: #222222;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 16px;
+  
+}
+
+.imagenes {
+  position: relative;
+  margin-top: 32px;
+}
+
+.imagenizq {
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  
+}
+
+.imagender {
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  border-radius: 0 0 100px 100px;
+  margin-bottom: 200px;
+}
+
+.cartas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  color: white;
+  margin-top: 47px;
+  padding: 32px;
+  border-radius: 25px;
+}
+
+.carta {
+  width: 30%;
+}
+
+
+.carta h3 {
+  margin: 8px 0;
+}
+
+.carta p {
+  font-size: 15px;
+}
